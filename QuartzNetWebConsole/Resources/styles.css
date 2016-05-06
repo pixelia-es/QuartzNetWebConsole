@@ -1,0 +1,84 @@
+body {
+	line-height: 140%;
+	font-size: 0.8em;
+}
+div.group {
+	padding: 7px;
+	float: left;
+	width: 45%;
+	margin: 10px;
+}
+form {
+	float: right;
+	margin: 5px;
+}
+h2 {
+	font-size: 130%;
+	margin: 0px;
+	padding: 5px;
+	margin-bottom: 8px;
+	border-bottom: solid 1px #444;
+	background-color: #f5f5f5;
+}
+table, th, td {
+	border: solid 1px #444;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 2px 5px;
+}
+th {
+	background-color: #eaeaea;
+}
+tr.alt {
+	background-color: #f6f6f6;
+}
+tr.highlight {
+	background-color: #FFFFCC;
+}
+table a {
+	text-decoration: none;
+}
+table a:hover {
+	text-decoration: underline;
+}
+
+/* pagination */
+.pagination 
+{
+	margin: 5px;
+	float: left;
+}
+.pagination a, .pagination span 
+{
+	border: solid 1px #888888;
+	padding: 2px 5px;
+	margin: 2px;
+}
+.pagination a 
+{
+	text-decoration: none;
+}
+.pagination a:hover
+{
+	background-color: #FFFFCC;
+}
+.pagination .currentPage
+{
+	font-weight: bold;
+	background-color: #888888;
+	color: White;
+}
+.pagination .disabledPage 
+{
+	color: #aaaaaa;
+}
+/* page size */
+.pagesize 
+{
+	text-align: right;
+}
+.pagesize span 
+{
+	font-weight: bold;
+}
